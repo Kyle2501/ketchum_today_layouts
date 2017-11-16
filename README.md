@@ -12,7 +12,7 @@ http://learn.gallery/css_course_info
 
 ### Maps Page Project
 
-info about maps
+info about maps,- http://learn.gallery/ketchum_today_maps
 
 
 ### Local Page Project
