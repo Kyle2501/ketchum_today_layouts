@@ -1,24 +1,24 @@
 # Ketchum.today Layouts
 
 
-About the Town of Ketchum, Idaho on Wikipedia:
-https://en.wikipedia.org/wiki/Ketchum,_Idaho
-_
+About the Town of Ketchum, Idaho on Wikipedia:  
+https://en.wikipedia.org/wiki/Ketchum,_Idaho  
+_  
 
-About the Resort City of Sun Valley, Idaho on Wikipedia:
-https://en.wikipedia.org/wiki/Sun_Valley,_Idaho
+About the Resort City of Sun Valley, Idaho on Wikipedia:  
+https://en.wikipedia.org/wiki/Sun_Valley,_Idaho  
 
-.
-
-
-More information about this 'On Going Develpoment' Project:
-http://learn.gallery/ketchum_today_layouts
+.  
 
 
-Information about the CSS Course:
-http://learn.gallery/css_course_info
+More information about this 'On Going Develpoment' Project:  
+http://learn.gallery/ketchum_today_layouts  
 
-.
+
+Information about the CSS Course:  
+http://learn.gallery/css_course_info  
+
+.  
 
 
 
