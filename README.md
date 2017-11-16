@@ -28,6 +28,13 @@ http://learn.gallery/css_course_info
 
 .  
 
+Wikipedia link for the State of Idaho:  
+https://en.wikipedia.org/wiki/Idaho  
+
+_  
+
+.  
+
 
 
 ### Maps Page Project
