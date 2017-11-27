@@ -1,6 +1,6 @@
 # Ketchum.today Layouts
 
-
+.
 About the Town of Ketchum, Idaho on Wikipedia:  
 https://en.wikipedia.org/wiki/Ketchum,_Idaho  
 _  
