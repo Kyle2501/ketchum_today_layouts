@@ -1,0 +1,85 @@
+<style>
+
+.page_code { outline: 1px solid #eee; min-height: 300px; padding: 10px; }
+
+.page_title {  }
+
+.pane_data { border: 1px solid #268bd2; margin: 25px; padding: 15px; background-color: #fff; }
+
+.plan_wrap { margin: 10px; padding: 15px; border-top: 1px solid #eee; }
+.payment_wrap { margin: 10px; padding: 15px; border-top: 1px solid #eee; }
+.learn_wrap { margin: 10px; padding: 15px;  }
+.upload_wrap { margin: 10px; padding: 15px; border-top: 1px solid #eee; }
+.create_wrap { margin: 10px; padding: 15px; border-top: 1px solid #eee;  }
+.template_wrap { margin: 10px; padding: 15px; border-top: 1px solid #eee;  }
+.template_option { display: inline-block; border: 1px solid #bbb; width: 100px; height: 100px; margin: 10px; }
+.template_option:hover { background-color: #bbb; }
+
+
+.button_wrap { font-size: 12px; text-align: center; border: 1px solid #888; border-radius: 2px; width: 45px; padding: 5px; float: right; }
+
+</style>
+
+<div class="page_code">
+
+  <div class="page_title">My Account Page</div>
+
+  <tabs>
+      <pane title="My Info">
+
+  <div class="pane_data">
+    <p>Name of Organiztion</p>
+    <p>Contact Address</p>
+    <p>Email</p>
+    <p>Type</p>
+    <div class="plan_wrap">
+    <p>Type of Plan</p>
+    <table>
+          <tr>
+            <td class="label">Charge <span style="color:#2aa198;">Yearly</span></td>
+            <td class="input">&nbsp;
+              <input type="radio" name="payment_rate" value="600-Y"> &nbsp; $600 &nbsp; <span style="color:#2aa198;font-size:14px;">/ Year</span></td>
+          </tr>
+          <tr>
+            <td class="label">Charge <span style="color:#2aa198;">Monthly</span></td>
+            <td class="input">&nbsp;
+              <input type="radio" name="payment_rate" value="50-M"> &nbsp; $50 &nbsp; <span style="color:#2aa198;font-size:14px;">/ Month</span></td>
+          </tr>
+        </table>
+      </div><!-- . plan_wrap - -->
+      <div class="payment_wrap">
+    <p>Payment Details</p>
+    <div class="button_wrap">Open</div>
+  </div><!-- . payment_wrap - -->
+  </div>
+      </pane>
+      <pane title="My Page">
+        
+          <div class="pane_data">
+            <div class="learn_wrap">
+              <a href="http://learn.elkhorn.io/" target="_blank">
+                http://learn.elkhorn.io/</a>
+            </div><!-- . learn_wrap - -->
+            <div class="upload_wrap">
+              <p>Upload HTML File</p>
+              <p><input type="file" /></p>
+            </div><!-- . upload_wrap - -->
+            <div class="create_wrap">
+              <p>[<a href=""> link </a>]Create Your Own HTML Code</p>
+            </div><!-- . create_wrap - -->
+            <div class="template_wrap">
+              <p>Select a Page Template [ Options ]</p>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+              <div class="template_option"></div>
+            </div><!-- . template_wrap - -->
+          </div><!-- . page_data - -->
+        </div>
+      </pane>
+    </tabs>
+</div><!-- . page_code - -->
