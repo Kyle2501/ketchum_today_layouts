@@ -1,6 +1,33 @@
-<!DOCTYPE html>
-<html>
+<style>
+    .map_wrap { outline: 1px solid #eee; bottom: 35px; position: absolute; top: 125px; right: 55px; left: 205px; }
+</style>
+<link rel="stylesheet" href="../../files/leaflet.css" />
+<script src="../../files/leaflet.js"></script>
 
 
+<h2>Maps <span style="color:#2aa198;">Page</span></h2>
 
-</html>
+<div class="map_wrap">
+  <div id="map" style="width: 100%; height: 80%"></div>
+  
+  <div class="bottom_wrap">
+    <p>
+    <span style="color:#2aa198;font-size:30px;padding-left:15px;">[!day!]</span>&nbsp; <span style="color:#586e75;font-family: 'Anonymous Pro';">[!time!]</span> &nbsp; - &nbsp; <span style="color:#bbb;">Sunset at <span style="font-family: 'Anonymous Pro'">[!weather_today_sunset!]</span></span>
+    <span style="color:#586e75;font-size:28px;font-family: 'Anonymous Pro';padding-left:35px;">[!weather_today_temp!]</span><span style="color:#839496;font-size:28px;">°F</span>
+    </p>
+      
+  </div><!-- . bottom_wrap - -->
+</div><!-- . map_wrap - -->
+
+<script>
+
+  var map = L.map('map').setView([43.6811, -114.367], 14);
+  
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map . Elkhorn Labs',
+              maxZoom: 18,
+              id: 'kyle2501.cif1jg5a10i7zt0m5ej5doijx',
+              accessToken: 'pk.eyJ1Ijoia3lsZTI1MDEiLCJhIjoiY2lmMWpnNm4xMGk2bnRpbTUzeW1qdDQ1ZyJ9.OcoYJjLR7rwfO1r0KSM5Dw'
+              }).addTo(map);
+
+</script>
