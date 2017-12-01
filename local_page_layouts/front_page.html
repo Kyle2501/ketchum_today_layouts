@@ -1,0 +1,92 @@
+
+<style>
+.hi { margin-left: 5px; margin-top: 5px; font-size: 32px; width: 425px; border-bottom: 1px solid #eee; letter-spacing: .08em; color: #2aa198; }
+.current_condition_wrap { margin-left: 5px; margin-top: 5px; transition: 2s; }
+.cam_wrap { margin-left: 5px; transition: 2s; }
+.cam_wrap img { width: 100%; transition: 1.3s; }
+
+.page_html_wrap { padding-top: 5px; }
+.page_wrap { padding: 5px; }
+
+
+
+@media (min-height: 550px) {
+.page_html_wrap { padding-top: 25px; }
+.page_wrap { padding: 10px; }
+}
+
+@media (min-width: 550px) {
+.cam_wrap img { width: 250px; }
+}
+
+@media (min-width: 600px) {
+
+.cam_wrap img { width: 275px; }
+
+}
+
+@media (min-width: 650px) {
+
+.cam_wrap img { width: 300px; }
+
+}
+
+@media (min-width: 700px) {
+
+.cam_wrap img { width: 350px; }
+
+}
+
+
+@media (min-width: 900px) {
+
+.cam_wrap img { width: 375px; }
+
+}
+
+
+@media (min-width: 950px) {
+.cam_wrap img { width: 400px; }
+
+}
+
+@media (min-width: 1000px) {
+.hi { margin-left: 45px; }
+.current_condition_wrap { margin-left: 45px; margin-top: 25px; }
+.cam_wrap { margin-left: 45px; }
+.cam_wrap img { width: 450px; }
+
+}
+
+@media (min-width: 1150px) {
+.cam_wrap img { width: 575px; }
+}
+
+
+@media (min-width: 1250px) {
+.cam_wrap img { width: 675px; }
+}
+
+</style>
+
+  <div class="page_wrap">
+    
+    <div class="cam_wrap">
+    
+    <p><span style="color:#586e75;font-size:42px;font-family: 'Anonymous Pro';">[!weather_today_temp!]</span><span style="color:#839496;font-size:38px;">°F</span> &nbsp; <span style="font-size:14px;padding-left:35px;color:#aaa;font-family: 'Anonymous Pro';">[!weather_today_text!]</span></p>
+    <img src="https://s3-us-west-1.amazonaws.com/sunvalley.com/images/webcams/locam_full.jpg" />
+<!--    
+  <img src="https://s3-us-west-1.amazonaws.com/sunvalley.com/images/webcams/wclouds_full.jpg" />
+    -->
+    </div><!-- . cam_wrap - -->
+    
+    <div class="current_condition_wrap">
+    <p><span style="color:#2aa198;font-size:36px;">[!day!]</span>&nbsp; <span style="color:#586e75;font-family: 'Anonymous Pro'">[!time!]</span> &nbsp; - &nbsp; <span style="color:#bbb;">Sunset at <span style="font-family: 'Anonymous Pro'">[!weather_today_sunset!]</span></span></p>
+    
+    </div><!-- . current_condition_wrap - -->
+
+    <div class="hi"><span style="color:#839496;font-size:54px;">Ketchum</span><span style="font-family: 'Anonymous Pro';">.today</span></div>
+    
+    <a href="../../pages/register"><div class="register_link"><span>Register</span> <p>A New Page</p></div></a>
+
+  </div><!-- - . page_wrap - -->
